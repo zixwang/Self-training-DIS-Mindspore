@@ -1,0 +1,168 @@
+[Start Convert]
+line 10:0: [UnConvert] 'import torch.optim as optim' didn't convert. Please manual convert the code, along with the code associated with it.
+line 85:8: [UnConvert] 'net.half' didn't convert. 
+line 87:33: [UnConvert] 'nn.BatchNorm2d' didn't convert. Manually determine the conversion type.
+line 88:16: [UnConvert] 'layer.float' didn't convert. 
+line 90:7: [UnConvert] 'torch.cuda.is_available' didn't convert. 
+line 91:8: [UnConvert] 'net.cuda' didn't convert. 
+line 96:28: [UnConvert] 'torch.load' didn't convert. 
+line 148:21: [UnConvert] 'torch.unsqueeze' didn't convert. 
+line 151:33: [UnConvert] 'inputs.type' didn't convert. 
+line 151:65: [UnConvert] 'labels.type' didn't convert. 
+line 153:33: [UnConvert] 'inputs.type' didn't convert. 
+line 153:64: [UnConvert] 'labels.type' didn't convert. 
+line 155:15: [UnConvert] 'torch.cuda.is_available' didn't convert. 
+line 156:37: [UnConvert] 'inputs.cuda' didn't convert. 
+line 156:52: [UnConvert] 'labels.cuda' didn't convert. 
+line 177:28: [UnConvert] 'loss.item' didn't convert. 
+line 178:32: [UnConvert] 'loss2.item' didn't convert. 
+line 185:33: [UnConvert] 'model_path.split' didn't convert. 
+line 229:20: [UnConvert] 'torch.save' didn't convert. 
+line 269:9: [UnConvert] 'torch.no_grad' didn't convert. 
+line 274:25: [UnConvert] 'torch.unsqueeze' didn't convert. 
+line 281:29: [UnConvert] 'inputs_val.type' didn't convert. 
+line 282:29: [UnConvert] 'labels_val.type' didn't convert. 
+line 284:29: [UnConvert] 'inputs_val.type' didn't convert. 
+line 285:29: [UnConvert] 'labels_val.type' didn't convert. 
+line 287:15: [UnConvert] 'torch.cuda.is_available' didn't convert. 
+line 288:45: [UnConvert] 'inputs_val.cuda' didn't convert. 
+line 288:64: [UnConvert] 'labels_val.cuda' didn't convert. 
+line 306:27: [UnConvert] 'torch.squeeze' didn't convert. 
+line 306:41: [UnConvert] 'F.interpolate' didn't convert. 
+line 306:55: [UnConvert] 'torch.unsqueeze' didn't convert. 
+line 309:21: [UnConvert] 'torch.max' didn't convert. 
+line 310:21: [UnConvert] 'torch.min' didn't convert. 
+line 315:21: [UnConvert] 'torch.no_grad' didn't convert. 
+line 316:25: [UnConvert] 'torch.tensor' didn't convert. 
+line 336:16: [UnConvert] 'torch.cuda.empty_cache' didn't convert. 
+line 338:24: [UnConvert] 'loss_val.item' didn't convert. 
+line 339:24: [UnConvert] 'loss2_val.item' didn't convert. 
+line 370:9: [UnConvert] 'torch.no_grad' didn't convert. 
+line 372:18: [UnConvert] 'img.cuda' didn't convert. 
+line 378:19: [UnConvert] 'torch.squeeze' didn't convert. 
+line 378:33: [UnConvert] 'F.interpolate' didn't convert. 
+line 381:17: [UnConvert] 'torch.max' didn't convert. 
+line 382:17: [UnConvert] 'torch.min' didn't convert. 
+line 386:35: [UnConvert] 'pred.squeeze(0).cpu().numpy' didn't convert. 
+line 386:35: [UnConvert] 'pred.squeeze(0).cpu' didn't convert. 
+line 386:35: [UnConvert] 'pred.squeeze' didn't convert. 
+line 619:15: [UnConvert] 'torch.sum' didn't convert. 
+line 619:25: [UnConvert] 'torch.absolute' didn't convert. 
+line 619:40: [UnConvert] 'torch.sub' didn't convert. 
+line 619:50: [UnConvert] 'pred.float' didn't convert. 
+line 619:64: [UnConvert] 'gt.float' didn't convert. 
+line 620:15: [UnConvert] 'torch.divide' didn't convert. 
+line 627:12: [UnConvert] 'torch.sum' didn't convert. 
+line 632:14: [UnConvert] 'torch.histc' didn't convert. 
+line 633:14: [UnConvert] 'torch.histc' didn't convert. 
+line 635:19: [UnConvert] 'torch.flipud' didn't convert. 
+line 636:19: [UnConvert] 'torch.flipud' didn't convert. 
+line 638:23: [UnConvert] 'torch.cumsum' didn't convert. 
+line 639:23: [UnConvert] 'torch.cumsum' didn't convert. 
+line 645:11: [UnConvert] 'torch.reshape' didn't convert. 
+line 645:62: [UnConvert] 'torch.reshape' didn't convert. 
+line 645:107: [UnConvert] 'torch.reshape' didn't convert. 
+line 679:15: [UnConvert] 'torch.sum' didn't convert. 
+line 679:25: [UnConvert] 'torch.absolute' didn't convert. 
+line 679:40: [UnConvert] 'torch.sub' didn't convert. 
+line 679:50: [UnConvert] 'pred.float' didn't convert. 
+line 679:64: [UnConvert] 'gt.float' didn't convert. 
+line 680:15: [UnConvert] 'torch.divide' didn't convert. 
+line 689:12: [UnConvert] 'torch.sum' didn't convert. 
+line 694:14: [UnConvert] 'torch.histc' didn't convert. 
+line 694:26: [UnConvert] 'pp.float' didn't convert. 
+line 695:14: [UnConvert] 'torch.histc' didn't convert. 
+line 695:26: [UnConvert] 'nn.float' didn't convert. 
+line 697:19: [UnConvert] 'torch.flipud' didn't convert. 
+line 698:19: [UnConvert] 'torch.flipud' didn't convert. 
+line 700:23: [UnConvert] 'torch.cumsum' didn't convert. 
+line 701:23: [UnConvert] 'torch.cumsum' didn't convert. 
+line 705:13: [UnConvert] 'torch.divide' didn't convert. 
+line 709:11: [UnConvert] 'torch.reshape' didn't convert. 
+line 709:62: [UnConvert] 'torch.reshape' didn't convert. 
+line 709:107: [UnConvert] 'torch.reshape' didn't convert. 
+line 788:0: [Convert] 'import torch.nn as nn' is converted to 'import mindspore.nn as nn'.
+line 789:0: [Convert] 'import torch.nn.functional as F' is converted to 'import mindspore.ops.operations as P'.
+line 802:25: [UnConvert] 'F.interpolate' didn't convert. 
+line 812:15: [Convert] 'nn.Module' is converted to 'nn.Cell'.
+line 816:23: [Convert] 'nn.Conv2d' is converted to 'nn.Conv2d'. Parameters are converted. 
+line 818:21: [Convert] 'nn.BatchNorm2d' is converted to 'nn.BatchNorm2d'. Parameter is converted. 
+line 819:23: [Convert] 'nn.ReLU' is converted to 'nn.ReLU'. Parameter is converted. 
+line 821:4: [Convert] 'forward' is converted to 'construct'.
+line 832:10: [UnConvert] 'F.interpolate' didn't convert. 
+line 838:11: [Convert] 'nn.Module' is converted to 'nn.Cell'.
+line 851:21: [Convert] 'nn.MaxPool2d' is converted to 'nn.MaxPool2d'. Parameters are converted. 
+line 854:21: [Convert] 'nn.MaxPool2d' is converted to 'nn.MaxPool2d'. Parameters are converted. 
+line 857:21: [Convert] 'nn.MaxPool2d' is converted to 'nn.MaxPool2d'. Parameters are converted. 
+line 860:21: [Convert] 'nn.MaxPool2d' is converted to 'nn.MaxPool2d'. Parameters are converted. 
+line 863:21: [Convert] 'nn.MaxPool2d' is converted to 'nn.MaxPool2d'. Parameters are converted. 
+line 876:4: [Convert] 'forward' is converted to 'construct'.
+line 900:31: [Convert] 'torch.cat' is converted to 'P.Concat'. 
+line 903:31: [Convert] 'torch.cat' is converted to 'P.Concat'. 
+line 906:31: [Convert] 'torch.cat' is converted to 'P.Concat'. 
+line 909:31: [Convert] 'torch.cat' is converted to 'P.Concat'. 
+line 912:31: [Convert] 'torch.cat' is converted to 'P.Concat'. 
+line 915:31: [Convert] 'torch.cat' is converted to 'P.Concat'. 
+line 921:11: [Convert] 'nn.Module' is converted to 'nn.Cell'.
+line 929:21: [Convert] 'nn.MaxPool2d' is converted to 'nn.MaxPool2d'. Parameters are converted. 
+line 932:21: [Convert] 'nn.MaxPool2d' is converted to 'nn.MaxPool2d'. Parameters are converted. 
+line 935:21: [Convert] 'nn.MaxPool2d' is converted to 'nn.MaxPool2d'. Parameters are converted. 
+line 938:21: [Convert] 'nn.MaxPool2d' is converted to 'nn.MaxPool2d'. Parameters are converted. 
+line 950:4: [Convert] 'forward' is converted to 'construct'.
+line 971:31: [Convert] 'torch.cat' is converted to 'P.Concat'. 
+line 974:31: [Convert] 'torch.cat' is converted to 'P.Concat'. 
+line 977:31: [Convert] 'torch.cat' is converted to 'P.Concat'. 
+line 980:31: [Convert] 'torch.cat' is converted to 'P.Concat'. 
+line 983:31: [Convert] 'torch.cat' is converted to 'P.Concat'. 
+line 991:11: [Convert] 'nn.Module' is converted to 'nn.Cell'.
+line 999:21: [Convert] 'nn.MaxPool2d' is converted to 'nn.MaxPool2d'. Parameters are converted. 
+line 1002:21: [Convert] 'nn.MaxPool2d' is converted to 'nn.MaxPool2d'. Parameters are converted. 
+line 1005:21: [Convert] 'nn.MaxPool2d' is converted to 'nn.MaxPool2d'. Parameters are converted. 
+line 1016:4: [Convert] 'forward' is converted to 'construct'.
+line 1034:31: [Convert] 'torch.cat' is converted to 'P.Concat'. 
+line 1037:31: [Convert] 'torch.cat' is converted to 'P.Concat'. 
+line 1040:31: [Convert] 'torch.cat' is converted to 'P.Concat'. 
+line 1043:31: [Convert] 'torch.cat' is converted to 'P.Concat'. 
+line 1051:11: [Convert] 'nn.Module' is converted to 'nn.Cell'.
+line 1059:21: [Convert] 'nn.MaxPool2d' is converted to 'nn.MaxPool2d'. Parameters are converted. 
+line 1062:21: [Convert] 'nn.MaxPool2d' is converted to 'nn.MaxPool2d'. Parameters are converted. 
+line 1072:4: [Convert] 'forward' is converted to 'construct'.
+line 1087:31: [Convert] 'torch.cat' is converted to 'P.Concat'. 
+line 1090:31: [Convert] 'torch.cat' is converted to 'P.Concat'. 
+line 1093:31: [Convert] 'torch.cat' is converted to 'P.Concat'. 
+line 1099:12: [Convert] 'nn.Module' is converted to 'nn.Cell'.
+line 1116:4: [Convert] 'forward' is converted to 'construct'.
+line 1127:31: [Convert] 'torch.cat' is converted to 'P.Concat'. 
+line 1128:31: [Convert] 'torch.cat' is converted to 'P.Concat'. 
+line 1129:31: [Convert] 'torch.cat' is converted to 'P.Concat'. 
+line 1135:16: [Convert] 'nn.Module' is converted to 'nn.Cell'.
+line 1140:23: [Convert] 'nn.Conv2d' is converted to 'nn.Conv2d'. Parameters are converted. 
+line 1144:22: [Convert] 'nn.MaxPool2d' is converted to 'nn.MaxPool2d'. Parameters are converted. 
+line 1147:22: [Convert] 'nn.MaxPool2d' is converted to 'nn.MaxPool2d'. Parameters are converted. 
+line 1150:22: [Convert] 'nn.MaxPool2d' is converted to 'nn.MaxPool2d'. Parameters are converted. 
+line 1153:22: [Convert] 'nn.MaxPool2d' is converted to 'nn.MaxPool2d'. Parameters are converted. 
+line 1156:22: [Convert] 'nn.MaxPool2d' is converted to 'nn.MaxPool2d'. Parameters are converted. 
+line 1167:21: [Convert] 'nn.Conv2d' is converted to 'nn.Conv2d'. Parameters are converted. 
+line 1168:21: [Convert] 'nn.Conv2d' is converted to 'nn.Conv2d'. Parameters are converted. 
+line 1169:21: [Convert] 'nn.Conv2d' is converted to 'nn.Conv2d'. Parameters are converted. 
+line 1170:21: [Convert] 'nn.Conv2d' is converted to 'nn.Conv2d'. Parameters are converted. 
+line 1171:21: [Convert] 'nn.Conv2d' is converted to 'nn.Conv2d'. Parameters are converted. 
+line 1172:21: [Convert] 'nn.Conv2d' is converted to 'nn.Conv2d'. Parameters are converted. 
+line 1180:4: [Convert] 'forward' is converted to 'construct'.
+line 1211:28: [Convert] 'torch.cat' is converted to 'P.Concat'. 
+line 1214:28: [Convert] 'torch.cat' is converted to 'P.Concat'. 
+line 1217:28: [Convert] 'torch.cat' is converted to 'P.Concat'. 
+line 1220:28: [Convert] 'torch.cat' is converted to 'P.Concat'. 
+line 1223:28: [Convert] 'torch.cat' is converted to 'P.Concat'. 
+line 1244:16: [UnConvert] 'torch.sigmoid' didn't convert. Maybe could convert to mindspore.ops.operations.Sigmoid.
+line 1244:35: [UnConvert] 'torch.sigmoid' didn't convert. Maybe could convert to mindspore.ops.operations.Sigmoid.
+line 1244:54: [UnConvert] 'torch.sigmoid' didn't convert. Maybe could convert to mindspore.ops.operations.Sigmoid.
+line 1244:73: [UnConvert] 'torch.sigmoid' didn't convert. Maybe could convert to mindspore.ops.operations.Sigmoid.
+line 1244:92: [UnConvert] 'torch.sigmoid' didn't convert. Maybe could convert to mindspore.ops.operations.Sigmoid.
+line 1245:16: [UnConvert] 'torch.sigmoid' didn't convert. Maybe could convert to mindspore.ops.operations.Sigmoid.
+line 1266:0: [UnConvert] 'from torch.utils.data import Dataset' didn't convert. Please manual convert the code, along with the code associated with it.
+line 1268:0: [UnConvert] 'from torch.utils.data import DataLoader' didn't convert. Please manual convert the code, along with the code associated with it.
+line 1365:0: [Convert] 'import torch' is converted to 'import mindspore'.
+line 1405:15: [UnConvert] 'torch.from_numpy' didn't convert. 
+line 1406:15: [UnConvert] 'torch.divide' didn't convert. 
+[Convert Over]

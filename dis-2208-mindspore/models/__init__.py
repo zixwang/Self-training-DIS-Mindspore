@@ -1,0 +1,1 @@
+from models.u2netfast import U2NETFAST
